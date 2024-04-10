@@ -101,8 +101,9 @@ def ejercicio09():
         if len(palabra) > 0:
             break;
     largo = len(palabra)
+    palabra_invertida = palabra[::-1]
     for i in range(0,largo):
-        print(palabra[i])
+        print(palabra_invertida[i])
 
 def ejercicio10():
 #Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que 
